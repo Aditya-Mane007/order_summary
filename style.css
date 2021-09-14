@@ -1,0 +1,137 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Red Hat Display';
+}
+body {
+	background-image: url('./images/pattern-background-desktop.svg');
+	margin-top: 4%;
+}
+
+header img {
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	width: 405px;
+}
+.container {
+	width: 27%;
+	min-height: 30PX;
+	margin: auto;
+	background-color: rgb(255, 255, 255);
+	border-radius: 25px;
+}
+h1 {
+	font-family: 'Red Hat Display', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	margin: auto;
+}
+h2 {
+	text-align: center;
+	font-size: 15px;
+	padding: 20px;
+	color: gray;
+}
+
+.plan_package img {
+	width: 70px;
+	padding-right: 12px;
+}
+
+.plan_package p {
+	font-size: 2px;
+	margin-left: 0;
+	text-align: left;
+}
+.plan_package a {
+	font-size: 12px;
+	margin-left: 20%;
+}
+
+.plan_package {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(225, 100%, 98%);
+	width: 80%;
+	border-radius: 25px;
+	margin-left: 8%;
+}
+
+.btn-container button {
+	background-color: hsl(245, 75%, 52%);
+	margin-top: 8%;
+	margin-left: 8%;
+	width: 80%;
+	height: 40px;
+	border: none;
+	border-radius: 25px;
+	color: #fff;
+	font: bold;
+}
+h4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 20px;
+	font-weight: lighter;
+	font-size: 15px;
+	color: gray;
+}
+/* Desktop - 1440px
+Laptop - 1024px
+Tablet - 768px
+Mobile - 414px */
+
+@media screen and (min-width: 1366px) {
+	body{
+		background-image: url('./images/pattern-background-desktop.svg');
+		margin-top: 4%;
+	}
+	.container {
+		width: 405px;
+		margin: auto;
+	}
+	header img{
+		width: 405px;
+	}
+}
+@media screen and (min-width: 768px) {
+	body{
+		background-image: url('./images/pattern-background-desktop.svg');
+		margin-top: 8%;
+	}
+	.container {
+		width: 405px;
+		margin: auto;
+	}
+	header img{
+		width: 405px;
+	}
+}
+@media screen and (min-width: 414px) {
+	body{
+		background-image: url('./images/pattern-background-mobile.svg');
+		margin-top: 8%;
+	}
+	.container {
+		width: 405px;
+		margin: auto;
+	}
+	header img{
+		width: 405px;
+	}
+}
+@media screen and (min-width: 360px) {
+	body{
+		background-image: url('./images/pattern-background-mobile.svg');
+		margin-top: 8%;
+	}
+	.container {
+		width: 325px;
+		margin: auto;
+	}
+	header img{
+		width: 325px;
+	}
+}

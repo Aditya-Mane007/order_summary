@@ -99,7 +99,7 @@ Mobile - 414px */
 @media screen and (min-width: 768px) {
 	body{
 		background-image: url('./images/pattern-background-desktop.svg');
-		margin-top: 8%;
+		margin-top: 4%;
 	}
 	.container {
 		width: 405px;
@@ -112,7 +112,7 @@ Mobile - 414px */
 @media screen and (min-width: 414px) {
 	body{
 		background-image: url('./images/pattern-background-mobile.svg');
-		margin-top: 8%;
+		margin-top: 4%;
 	}
 	.container {
 		width: 405px;
@@ -124,8 +124,8 @@ Mobile - 414px */
 }
 @media screen and (min-width: 360px) {
 	body{
-		background-image: url('./images/pattern-background-mobile.svg');
-		margin-top: 8%;
+		background-image: url('./images/pattern-background-desktop.svg');
+		margin-top: 4%;
 	}
 	.container {
 		width: 325px;

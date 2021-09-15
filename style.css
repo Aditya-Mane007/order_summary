@@ -125,7 +125,7 @@ Mobile - 414px */
 @media screen and (min-width: 360px) {
 	body{
 		background-image: url('./images/pattern-background-desktop.svg');
-		margin-top: 8%;
+		margin-top: 4%;
 	}
 	.container {
 		width: 325px;
